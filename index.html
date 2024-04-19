@@ -4,9 +4,20 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="main.css">
-  <title>Document</title>
+  <title>Word Counter</title>
 </head>
 <body>
+  <div class="container">
+    <h1>Word Counter</h1>
+    <button id="bg-switch">Dark Mode</button>
+    <div id="error" class="error"></div>
+    <form>
+      <textarea class="text-area" placeholder="Place your words here..." rows="20" cols="99999999"></textarea>
+      <button type="submit">Submit</button>
+      <button type="reset">Clear</button>
+    </form>
+    <div id="word-count"></div>
+  </div>
   <script src="main.js"></script>
 </body>
 </html>

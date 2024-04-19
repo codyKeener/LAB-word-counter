@@ -1,3 +1,53 @@
 body {
-  background-color: dimgrey;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  font-size: 1.5em;
+}
+
+.container {
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 1.5em;
+}
+
+.dark-mode {
+  background-color: black;
+  color: white;
+}
+
+textarea {
+  /* display: block; */
+  width: 100%;
+  /* margin: 0px;
+  padding: 0px;
+  box-sizing:  border-box; */
+  font-size: 1.5em;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+textarea::placeholder {
+  color: blue;
+  /* font-size: 1.5em; */
+  /* font-family: Arial, Helvetica, sans-serif; */
+}
+
+button {
+  background-color: green;
+  color: white;
+  padding: 15px;
+  font-size: 1.5em;
+}
+
+#error {
+  
+  color: red;
+  font-size: 2em;
+  font-weight: bold;
+}
+
+#bg-switch {
+  margin-bottom: 10px;
 }
